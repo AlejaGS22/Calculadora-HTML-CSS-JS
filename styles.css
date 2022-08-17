@@ -1,0 +1,186 @@
+.Main_container {
+    border: 2px solid rgb(15, 158, 186);
+    width: 400px;
+    height: 500px;
+    background-color: rgba(247, 170, 241, 0.744);
+    border-radius: 20px;
+    padding: 20px;
+    margin : 40px auto;
+}
+
+.Main_container_pantalla {
+    border: 2px solid rgb(59, 59, 67);
+    height: 120px;
+    background-color: rgba(251, 243, 249, 0.744);
+    border-radius: 20px;
+    padding: 40px;
+
+
+}
+.Main_container_content_buttons {
+    border: 2px solid rgb(67, 59, 59);
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px 40px 40px 40px;
+    background-color: rgba(237, 201, 229, 0.918);
+  
+}
+
+
+
+    
+.Main_container_content_buttons_uno{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+    }
+
+    .Main_container_content_buttons_uno:hover{
+        background-color: azure;
+        cursor: pointer;
+    }
+
+.fila_uno{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+}
+
+.Main_container_content_buttons_dos{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 146px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+
+}
+
+.Main_container_content_buttons_dos:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.Main_container_content_buttons_tres{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 308px;
+    left: 190px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+
+}
+
+.Main_container_content_buttons_tres:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+
+
+.Main_container_content_buttons_cuatro{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 469px;
+    left: 290px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+
+}
+
+.Main_container_content_buttons_cuatro:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.Main_container_content_buttons_signos{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 469px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+}
+
+    .Main_container_content_buttons_signos:hover{
+        background-color: azure;
+        cursor: pointer;
+    }
+
+
+.Main_container_content_buttons_mas{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 523px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+
+}
+
+.Main_container_content_buttons_mas:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.Main_container_content_buttons_clear{
+    border:2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 630px;
+    left: 190px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+}
+
+.Main_container_content_buttons_clear:hover{
+     background-color: azure;
+    cursor: pointer;
+}
+
+.Main_container_content_buttons_igual{
+    border: 2px solid rgba(13, 233, 245, 0.744);
+    position: relative;
+    bottom: 576px;
+    left: 290px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 215, 210);
+    border-radius: 5px;
+}
+
+
+.Main_container_content_buttons_igual:hover{
+    background-color: azure;
+    cursor: pointer;
+}    
+
+
+.fila_final{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+}

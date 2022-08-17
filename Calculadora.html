@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" Content="IE=edge">
+
+  <title>Calculadora HTML y CSS</title>
+
+  <!-- Instancia de archivos -->
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<!-- Este es el cuerpo de mi pagina -->
+
+<body style="background-color: rgb(10, 158, 231);">
+  <!-- Contenedor principal -->
+  <div class="Main_container">
+    <div class="Main_container_pantalla">
+      <h1 id="resultado"></h1>
+    </div>
+    <div class="Main_container_content_buttons">
+
+      <div class="Main_container_content_buttons_uno" onclick="agregar(7)">
+        <h2 class="fila_uno">7</7h2>
+      </div>
+      <div class="Main_container_content_buttons_uno" onclick="agregar(4)">
+        <h2 class="fila_uno">4</h2>
+      </div>
+      <div class="Main_container_content_buttons_uno" onclick="agregar(1)">
+        <h2 class="fila_uno">1</h2>
+      </div>
+
+
+      <div class="Main_container_content_buttons_dos" onclick="agregar(8)">
+        <h2 class="fila_uno">8</h2>
+      </div>
+      <div class="Main_container_content_buttons_dos" onclick="agregar(5)">
+        <h2 class="fila_uno">5</h2>
+      </div>
+      <div class="Main_container_content_buttons_dos" onclick="agregar(1)">
+        <h2 class="fila_uno">2</h2>
+      </div>
+
+
+      <div class="Main_container_content_buttons_tres" onclick="agregar(9)">
+        <h2 class="fila_uno">9</h2>
+      </div>
+      <div class="Main_container_content_buttons_tres" onclick="agregar(6)">
+        <h2 class="fila_uno">6</h2>
+      </div>
+      <div class="Main_container_content_buttons_tres" onclick="agregar(3)">
+        <h2 class="fila_uno">3</h2>
+      </div>
+
+      <div class="Main_container_content_buttons_cuatro" onclick="agregar('/')">
+        <h2 class="fila_uno">/</h2>
+      </div>
+      <div class="Main_container_content_buttons_cuatro" onclick="agregar('*')">
+        <h2 class="fila_uno">*</h2>
+      </div>
+      <div class="Main_container_content_buttons_cuatro" onclick="agregar('-')">
+        <h2 class="fila_uno">-</h2>
+      </div>
+      <div class="Main_container_content_buttons_signos" onclick="agregar(0)">
+        <h2 class="fila_final">0</h2>
+      </div>
+      <div class="Main_container_content_buttons_mas" onclick="agregar('+')">
+        <h2 class="fila_final">+</h2>
+      </div>
+      <div class="Main_container_content_buttons_igual" onclick="resolve()">
+        <h2 class="fila_final">=</h2>
+      </div>
+      <div class="Main_container_content_buttons_clear" id="clear">
+        <h2 class="fila_final">c</h2>
+      </div>
+    </div>
+  </div>
+
+  <h1>HOLA 📐</h1>
+<script src="./resultado.js"></script>
+</body>
+
+</html>
